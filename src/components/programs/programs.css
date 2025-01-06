@@ -1,0 +1,63 @@
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.programs-header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.program-categories {
+  display: flex;
+  gap: 1rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  padding: 2rem;
+  gap: 1rem;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.icons {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #fff;
+}
+
+.program-heading {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.program-details {
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.join-now {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  & img {
+    width: 1rem;
+  }
+}
+
+.category:hover {
+  background: var(--planCard);
+  cursor: pointer;
+}

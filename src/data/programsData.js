@@ -14,7 +14,7 @@ export const programsData = [
   },
   {
     image:
-      "../../public/local_fire_department_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg",
+      "/local_fire_department_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 (1).svg",
     heading: "Fat Burning",
     details:
       "This program is suitable for you who wants to get rid of your fat and lose their weight.",

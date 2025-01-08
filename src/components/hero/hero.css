@@ -183,3 +183,9 @@
   color: #fff;
   font-size: 1.5rem;
 }
+
+.hero-blur {
+  left: 0;
+  width: 22rem;
+  height: 30rem;
+}

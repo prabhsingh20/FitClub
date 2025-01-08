@@ -74,3 +74,17 @@
 .plan:nth-child(2) > button {
   color: var(--orange);
 }
+
+.plans-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0;
+}
+
+.plans-blur-2 {
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0;
+}

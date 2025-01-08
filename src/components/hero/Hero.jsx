@@ -7,7 +7,7 @@ import calories from "/calories.png";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="left-h">
         <Header />
         <div className="the-best-ad">

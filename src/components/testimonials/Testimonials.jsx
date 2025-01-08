@@ -9,7 +9,7 @@ function Testimonials() {
   const tLength = testimonialsData.length;
 
   return (
-    <div className="testimonials">
+    <div className="testimonials" id="testimonials">
       {/* LEFT OF THE TEST */}
       <div className="left-t">
         <span>Testimonials</span>

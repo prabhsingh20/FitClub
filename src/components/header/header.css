@@ -21,13 +21,12 @@
 }
 
 .hamburger {
-  padding: 0.5rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 5px;
 }
 
 .bars {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2.5rem;
 }
 
 @media screen and (max-width: 768px) {

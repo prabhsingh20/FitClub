@@ -1,7 +1,7 @@
 import "./footer.css";
-import github from "/github.png";
-import instagram from "/instagram.png";
-import linkedin from "/linkedin.png";
+import github from "/footer/github.png";
+import instagram from "/footer/instagram.png";
+import linkedin from "/footer/linkedin.png";
 import logo from "/logo.png";
 
 function Footer() {

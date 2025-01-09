@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./header.css";
-import bars from "/bars.png";
+import bars from "/menu_24dp_F48915_FILL0_wght400_GRAD0_opsz24.svg";
 import logo from "/logo.png";
 import { Link } from "react-scroll";
 

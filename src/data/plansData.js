@@ -1,6 +1,6 @@
 export const plansData = [
   {
-    icon: "/heart_plus_24dp_F48915_FILL0_wght400_GRAD0_opsz24.svg",
+    icon: "/plans/heart_plus_24dp_F48915_FILL0_wght400_GRAD0_opsz24.svg",
     name: "BASIC PLAN",
     price: "2100",
     features: [
@@ -10,7 +10,7 @@ export const plansData = [
     ],
   },
   {
-    icon: "/crown_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg",
+    icon: "/plans/crown_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg",
     name: "PREMIUM PLAN",
     price: "2500",
     features: [
@@ -20,7 +20,7 @@ export const plansData = [
     ],
   },
   {
-    icon: "/exercise_24dp_F48915_FILL0_wght400_GRAD0_opsz24.svg",
+    icon: "/plans/exercise_24dp_F48915_FILL0_wght400_GRAD0_opsz24.svg",
     name: "PRO PLAN",
     price: "4000",
     features: [

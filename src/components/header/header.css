@@ -19,3 +19,26 @@
   cursor: pointer;
   color: var(--orange);
 }
+
+.hamburger {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.bars {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+  }
+  .header-menu {
+    flex-direction: column;
+    background-color: var(--appColor);
+    padding: 2rem;
+  }
+}

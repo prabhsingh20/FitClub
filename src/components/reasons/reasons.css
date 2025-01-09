@@ -98,3 +98,33 @@
     width: 2.5rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .reasons {
+    flex-direction: column;
+  }
+  .left-r {
+    grid-auto-rows: auto;
+    overflow: hidden;
+  }
+  .image1 {
+    width: 7rem;
+    height: 17rem;
+  }
+  .image2 {
+    width: 15rem;
+    height: 10rem;
+  }
+  .image3 {
+    width: 7rem;
+    height: 6rem;
+  }
+  .image4 {
+    width: 7rem;
+    height: 6rem;
+  }
+
+  .some-reasons {
+    margin-top: 2rem;
+  }
+}

@@ -2,6 +2,8 @@
   display: flex;
   gap: 1rem;
   padding: 0 2rem;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .left-t {

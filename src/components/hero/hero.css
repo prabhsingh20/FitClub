@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
+  max-width: 1500px;
 }
 
 .left-h {
@@ -258,5 +259,11 @@
     width: 15rem;
     left: 2rem;
     top: 0;
+  }
+}
+
+@media (min-width: 1500px) {
+  .hero {
+    padding: 0 10rem;
   }
 }

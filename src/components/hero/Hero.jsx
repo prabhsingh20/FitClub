@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import Header from "../header/Header";
 import "./hero.css";
-import calories from "/calories.png";
-import heart from "/heart.png";
-import hero_image from "/hero_image.png";
-import hero_image_back from "/hero_image_back.png";
+import calories from "/hero/calories.png";
+import heart from "/hero/heart.png";
+import hero_image from "/hero/hero_image.png";
+import hero_image_back from "/hero/hero_image_back.png";
 import NumberCounter from "number-counter";
 
 function Hero() {

@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* make variables */
 :root {
-  --lightgray: #d9d9d9;
+  --lightgray: #bdc3c7;
   --gray: #9c9c9c;
-  --orange: #f48915;
-  --darkGrey: #464d53;
-  --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
-  --appColor: #3c3f45;
+  --orange: #ff5733;
+  --darkGrey: #34495e;
+  --caloryCard: #1f2a36;
+  --planCard: linear-gradient(210.41deg, #d32f2f 1.14%, #ff5733 100.75%);
+  --appColor: #2c3e50;
 }
 
 .stroke-text {

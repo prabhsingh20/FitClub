@@ -1,11 +1,11 @@
 import "./reasons.css";
-import image1 from "/image1.png";
-import image2 from "/image2.png";
-import image3 from "/image3.png";
-import image4 from "/image4.png";
-import nb from "/nb.png";
-import adidas from "/adidas.png";
-import nike from "/nike.png";
+import image1 from "/reasons/image1.png";
+import image2 from "/reasons/image2.png";
+import image3 from "/reasons/image3.png";
+import image4 from "/reasons/image4.png";
+import nb from "/reasons/nb.png";
+import adidas from "/reasons/adidas.png";
+import nike from "/reasons/nike.png";
 import tick from "/tick.png";
 
 function Reasons() {

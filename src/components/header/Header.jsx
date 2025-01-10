@@ -1,19 +1,36 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./header.css";
 import bars from "/menu_24dp_F48915_FILL0_wght400_GRAD0_opsz24.svg";
 import logo from "/logo.png";
 import { Link } from "react-scroll";
 
 function Header() {
-  const mobile = window.innerWidth <= 768 ? true : false;
+  const [mobile, setMobile] = useState(window.innerWidth <= 768);
   const [menuOpened, setMenuOpened] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const isMobile = window.innerWidth <= 768;
+      setMobile(isMobile);
+
+      if (!isMobile) {
+        setMenuOpened(false);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   return (
     <div className="header">
-      <img src={logo} className="logo" alt="websie logo fit club" />
+      <img src={logo} className="logo" alt="website logo fit club" />
       {menuOpened === false && mobile === true ? (
         <div className="hamburger" onClick={() => setMenuOpened(!menuOpened)}>
-          <img src={bars} className="bars" alt="hamburger image" />
+          <img src={bars} className="bars" alt="hamburger icon" />
         </div>
       ) : (
         <ul className="header-menu">
@@ -22,7 +39,7 @@ function Header() {
               to="hero"
               smooth={true}
               spy={true}
-              onClick={() => setMenuOpened(!menuOpened)}
+              onClick={() => setMenuOpened(false)}
             >
               Home
             </Link>
@@ -32,7 +49,7 @@ function Header() {
               to="programs"
               smooth={true}
               spy={true}
-              onClick={() => setMenuOpened(!menuOpened)}
+              onClick={() => setMenuOpened(false)}
             >
               Programs
             </Link>
@@ -42,7 +59,7 @@ function Header() {
               to="reasons"
               smooth={true}
               spy={true}
-              onClick={() => setMenuOpened(!menuOpened)}
+              onClick={() => setMenuOpened(false)}
             >
               Why us
             </Link>
@@ -52,7 +69,7 @@ function Header() {
               to="plans"
               smooth={true}
               spy={true}
-              onClick={() => setMenuOpened(!menuOpened)}
+              onClick={() => setMenuOpened(false)}
             >
               Plans
             </Link>
@@ -62,7 +79,7 @@ function Header() {
               to="testimonials"
               smooth={true}
               spy={true}
-              onClick={() => setMenuOpened(!menuOpened)}
+              onClick={() => setMenuOpened(false)}
             >
               Testimonials
             </Link>

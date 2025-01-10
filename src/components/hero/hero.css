@@ -267,6 +267,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero-text {
+    gap: 0.6rem;
+  }
   .figures {
     flex-wrap: nowrap;
   }
@@ -276,6 +279,9 @@
   .heart-rate {
     left: 1rem;
     top: 2rem;
+  }
+  .heart-rate-count {
+    font-size: 1rem;
   }
   .calories {
     position: relative;

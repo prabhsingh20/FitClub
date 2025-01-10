@@ -132,14 +132,19 @@
     overflow: hidden;
   }
   .image1 {
-    width: 7rem;
+    width: 6rem;
     height: 17rem;
   }
   .image2 {
-    width: 15rem;
+    width: 12.5rem;
     height: 10rem;
   }
-
+  .image3 {
+    width: 6rem;
+  }
+  .image4 {
+    width: auto;
+  }
   .some-reasons {
     margin-top: 2rem;
   }

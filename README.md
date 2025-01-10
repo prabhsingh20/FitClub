@@ -6,7 +6,7 @@ Gym Website is a sleek, modern UI showcasing a beautiful, responsive design. Bui
 
 Here’s a quick look at the design:
 
-Check out the [live demo](#) (Replace with actual demo link)
+Check out the [live demo](https://fit-club-tan.vercel.app/) 
 
 ## Table of Contents
 
@@ -85,7 +85,6 @@ This Gym Website is a beautiful, responsive UI showcasing modern web design tren
 ## Core Dependencies
 
 - **React.js**: Frontend JavaScript library for building user interfaces.
-- **Tailwind CSS**: Utility-first CSS framework for building custom designs.
 - **Vite**: Fast and modern build tool for frontend development.
 
 For full list of dependencies, check the `package.json` file.
